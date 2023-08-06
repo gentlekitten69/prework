@@ -7,5 +7,5 @@ console.log("My name is: William ");
 console.log(30);
 console.log("My age is: 30");
 console.log("Learning new exercises");
-console.log("My zip code is 33410")
-console.log("Coding is a fun experience.")
+console.log("My zip code is: 33410");
+console.log("Coding is a fun a experience.");
