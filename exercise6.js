@@ -17,4 +17,14 @@ console.log(5 == "5");
 console.log("The number 5 is the same value and same data type as the string '5'");
 console.log(5 === "5");
 
-//Ex. 6.2
+// Ex. 6.2
+console.log("true or false: 7 is equal to 7");
+console.log(7 == 7); // ==, true
+console.log("true or false: 2 is less than -2");
+console.log(2 < -2); // <, false
+console.log("true or false: 3 is the same as 3");
+console.log(3 !== 3); // !==, false
+console.log("true or false: 3 is not the same as 2");
+console.log(3 != 2); // !=, true
+console.log("true or false: 5 is the same as 5");
+console.log(5=== 5); // ===, true
