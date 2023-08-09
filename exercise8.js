@@ -16,7 +16,7 @@ console.log(reminderMessage);*/
 //Ex. 8.3
 const firstName = "William" ;//add your first name
 const lastName = "Gonzalez";//add your last name
-const fullNameConcat = firstName + " " + lastName//create your full name from the first two variables using concatenation 
+const fullNameConcat = firstName + " " + lastName //create your full name from the first two variables using concatenation 
 const fullNameInterp = `firstName lastName `  //create your full name from the first two variables using interpolation
 
 //don't change the following line, checks to see that concatenation and interpolation gave results
