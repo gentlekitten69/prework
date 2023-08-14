@@ -35,13 +35,13 @@ She already knows the criteria, but needs your help to finish implementing the c
 
 Hint:You will need to check if the last letter is equal to s. If a string has n characters, then it’s last letter is at what index?*/
 
-const word = "Gentle"
+const word = "Quickie"
 
 if (word.length <= 5 || word.length >= 10) { 
     console.log("This word is not an acceptable length.");
-} else if ( word == "X" , "Q")/*fill in this condition*/ {
+} else if ( word.charAt(0) == "X" || word.charAt(0) == "Q" )/*fill in this condition*/ {
     console.log("This word starts with a prohibited letter.");
-} else if (word.length == 7 && word.indexOf("s"))/*fill in this condition*/ {
+} else if (word.length == 7 && word.charAt(-1) != "s")/*fill in this condition*/ {
     console.log("Sorry a 7 letter word has to end in s.");
 } else {
     console.log("This word works!");
